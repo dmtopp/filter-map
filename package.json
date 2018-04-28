@@ -6,11 +6,14 @@
   "scripts": {
     "lint": "node ./node_modules/eslint/bin/eslint ./src",
     "test": "jest",
-    "test:dev": "jest --watch"
+    "test:dev": "jest --watch",
+    "benchmark": "node ./src/__benchmark__/benchmark.js"
   },
   "author": "DTopp",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "benchmark": "~2.1.4"
+  },
   "devDependencies": {
     "babel-core": "~6.26.3",
     "babel-jest": "~22.4.3",
