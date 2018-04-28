@@ -1,0 +1,11 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "es6": true,
+    "jest": true
+  },
+  "rules": {
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"]
+  }
+}
